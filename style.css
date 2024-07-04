@@ -370,7 +370,7 @@ section {
   border: 1px solid var(--outline);
   gap: 32px;
 }
-.we-provide-card-container-large > h3 {
+.we-provide-heading-large {
   font-size: 3.5rem;
 }
 
