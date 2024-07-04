@@ -117,7 +117,8 @@ section {
   gap: 32px;
 }
 
-.nav-menu-container>p {
+.nav-menu-item {
+  color: var(--text);
   font-weight: 500;
 }
 
@@ -365,6 +366,7 @@ section {
   width: 100%;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 56px 52px;
   border-radius: 40px;
   border: 1px solid var(--outline);
@@ -372,6 +374,10 @@ section {
 }
 .we-provide-heading-large {
   font-size: 3.5rem;
+}
+
+.we-provide-text-large {
+  font-size: 2.5rem;
 }
 
 .we-provide-card-container-landscape {
@@ -393,8 +399,11 @@ section {
 }
 
 .we-provide-heading-wrapper>h3 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 500;
+}
+.we-provide-heading-wrapper>p {
+  font-size: 2.5rem
 }
 
 .we-provide-heading-wrapper-landscape {
@@ -404,6 +413,9 @@ section {
 .we-provide-heading-wrapper-landscape>h3 {
   font-size: 3rem;
 }
+.we-provide-heading-wrapper-landscape>p {
+  font-size: 2.5rem;
+}
 
 .we-provide-heading-wrapper-landscape {
   flex-direction: column;
@@ -412,6 +424,8 @@ section {
 .we-provide-heading-wrapper-large {
   flex-direction: column;
 }
+
+/* Service cards */
 
 .service-grid-container {
   display: grid;
