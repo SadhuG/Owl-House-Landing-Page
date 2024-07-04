@@ -370,6 +370,9 @@ section {
   border: 1px solid var(--outline);
   gap: 32px;
 }
+.we-provide-card-container-large > h3 {
+  font-size: 3.5rem;
+}
 
 .we-provide-card-container-landscape {
   width: 100%;
